@@ -28,6 +28,7 @@ public class LoginActivity extends AppCompatActivity {
     DatabaseReference referenceData;
     LoadingDialog loadingDialog;
     String username, password, passwordDB, loginIDDB;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

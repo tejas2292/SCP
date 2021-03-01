@@ -13,8 +13,8 @@
         android:theme="@style/Theme.SCP">
         <activity android:name=".Patient.PatientMainActivity"></activity>
         <activity android:name=".Caretaker.CaretakerMainActivity" />
-        <activity android:name=".Caretaker.RegestrationPatientCaretaker" />
-        <activity android:name=".Admin.RegestrationPatientAdmin" />
+        <activity android:name=".Caretaker.RegistrationPatientCaretaker" />
+        <activity android:name=".Admin.RegistrationPatientAdmin" />
         <activity android:name=".Admin.RegistrationCaretakerActivity" />
         <activity android:name=".Admin.AdminMainActivity" />
         <activity android:name=".LoginActivity" />
