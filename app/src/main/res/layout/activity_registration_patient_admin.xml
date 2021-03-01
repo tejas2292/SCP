@@ -54,7 +54,6 @@
             android:background="@drawable/edit_text_background"
             android:hint="Enter Roll No"
             android:inputType="text"
-            android:maxLength="10"
             android:padding="10dp" />
 
         <TextView
@@ -75,7 +74,6 @@
             android:background="@drawable/edit_text_background"
             android:hint="Enter Class"
             android:inputType="text"
-            android:maxLength="10"
             android:padding="10dp" />
         <TextView
             android:layout_width="match_parent"
@@ -95,7 +93,6 @@
             android:background="@drawable/edit_text_background"
             android:hint="Enter Password"
             android:inputType="textPassword"
-            android:maxLength="10"
             android:padding="10dp" />
 
         <Button

@@ -1,16 +1,17 @@
 package com.example.scp.Uploads;
 
 public class CaretakerUpload {
-    String class_std, name, password, username;
+    String class_std, name, password, username, phoneNo;
 
     public CaretakerUpload() {
     }
 
-    public CaretakerUpload(String class_std, String name, String password, String username) {
+    public CaretakerUpload(String class_std, String name, String password, String username, String phoneNo) {
         this.class_std = class_std;
         this.name = name;
         this.password = password;
         this.username = username;
+        this.phoneNo = phoneNo;
     }
 
     public String getClass_std() {
@@ -43,5 +44,13 @@ public class CaretakerUpload {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public String getPhoneNo() {
+        return phoneNo;
+    }
+
+    public void setPhoneNo(String phoneNo) {
+        this.phoneNo = phoneNo;
     }
 }
